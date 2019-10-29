@@ -1,6 +1,11 @@
 html {
   background: #A2B6E8;
 }
+
+body, html {
+    height: 100%;
+}
+
 .popout {
   font-family: Futura, monospace;
   font-weight: 950;
@@ -103,3 +108,13 @@ nav {
   text-decoration: none;
   color: white;
 }
+
+#hero-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://womenyoushouldknow.net/wp-content/uploads/2017/10/Marie_Curie_public_domain.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
