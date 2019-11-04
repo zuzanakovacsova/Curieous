@@ -15,6 +15,11 @@ body {
   font-size: 32px;
   margin: 0px;
 }
+
+.navbar-nav > li{
+  padding-left:20px;
+}
+
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
   color: #2a3c69;
