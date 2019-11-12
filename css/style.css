@@ -336,7 +336,7 @@ width: 120px;
 float: left;
 }
 .event-list > li > .info {
-background-color: rgb(245, 245, 245);
+background-color: #2a3c69);
 overflow: hidden;
 }
 .event-list > li > time,
