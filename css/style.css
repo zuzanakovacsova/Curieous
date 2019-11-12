@@ -4,6 +4,7 @@ body {
        font-family: 'Amiri', serif !important;
        font-size: 20px;
        cursor: auto;
+       background: #2A3C69 !important;
      }
 
  h1 {
@@ -38,6 +39,7 @@ body {
 #Surprise:hover {
   cursor: pointer;
 }
+
 /* navigation settings*/
 .navbar {
   background-color: #2a3c69 !important;
