@@ -1,10 +1,43 @@
 /* font set up:*/
 
 body {
-       font-family: 'Amiri', serif;
+       font-family: 'Amiri', serif !important;
        font-size: 20px;
+       cursor: auto;
      }
 
+ h1 {
+  font-family: 'Questrial', sans-serif !important;
+  font-size: 25px;
+  margin: 10px;
+ }    
+
+ p {
+  margin: 10px;
+ }
+
+ #Surprise {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #2a3c69 !important;
+  background-color: #ffffff;
+  font-weight: italic;
+}
+
+#interimage {
+  display: flex;
+  justify-content: center;
+}
+
+#Surprise:hover {
+  cursor: pointer;
+}
 /* navigation settings*/
 .navbar {
   background-color: #2a3c69 !important;
