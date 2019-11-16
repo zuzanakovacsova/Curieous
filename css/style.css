@@ -18,11 +18,23 @@ body {
 
 h1 {
   font-family: 'Questrial', sans-serif !important;
-  font-size: 25px;
+  font-size: 30px;
   margin: 10px;
   display: flex;
   justify-content: center;;
  }
+
+ h2 {
+  font-family: 'Questrial', sans-serif !important;
+  font-size: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+ }
+
+ a, a:hover, a:visited {
+  color: #ffffff;
+}
 
 p {
   margin: 10px;
@@ -33,10 +45,22 @@ p {
 }
 
 .My_footer {
+  display: flex;
   flex-shrink: 0;
-  height: 40px;
+  justify-content: center;
+  height: 70px;
+  color: #ffffff;
   background: #495269;
-  font-size: 400px !important;
+  font-size: 15px;
+  align-items:center;
+  font-family: 'Questrial', sans-serif !important;
+}
+
+.social_media{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 23px;
+  padding: 10px;
 }
 
 #Surprise {
