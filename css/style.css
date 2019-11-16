@@ -36,6 +36,12 @@ h1 {
   color: #ffffff;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 p {
   margin: 10px;
  }
@@ -84,9 +90,6 @@ p {
 #Surprise:hover {
   cursor: pointer;
 }
-
-
-
 
 /* navigation settings*/
 .navbar {
