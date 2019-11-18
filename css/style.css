@@ -1,9 +1,4 @@
 
-body {
-  height: 100%;
-  margin: 0;
-}
-
 /* font set up:*/
 
 body {
@@ -14,7 +9,9 @@ body {
   font-size: 20px;
   cursor: auto;
   color: #495269;
-  background: #A2B6E8 !important;    }
+  background: #A2B6E8 !important; 
+  margin: 0;
+}
 
 h1 {
   font-family: 'Questrial', sans-serif !important;
