@@ -21,7 +21,7 @@ h1 {
   font-size: 30px;
   margin: 10px;
   display: flex;
-  justify-content: center;;
+  justify-content: center;
  }
 
  h2 {
@@ -101,7 +101,11 @@ p {
 .carousel-caption {
   top: 0;
   bottom: auto;
-  right: 80%;
+  background: rgba(42, 60, 105, 0.3);
+  color: #ffffff;
+  max-width: 100%;
+  width:100%;
+  left: 0;
 }
 
 /* navigation settings*/
