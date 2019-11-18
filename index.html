@@ -19,6 +19,7 @@
 <!--   BODY   -->
 <body>
   <div class="content">
+  <div id="bootstrap-override" class ="container-fluid">
       <!-- Navigation bar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">CURIEOUS</a>
@@ -53,37 +54,39 @@
         <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
                       aria-label="Search">
       </form>
-    </div>
+    </div> 
   </nav>
+  </div>
 
-  <div class="container-fluid">
+  <div id="bootstrap-override" class="container-fluid">
       <!-- Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-outer">
       <div class="carousel-item active">
-        <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1248,w_2220,x_0,y_0/f_auto,q_auto,w_1100/v1554928240/shape/mentalfloss/537552.curie2x.jpg" class="d-block w-100" alt="" >
-        <div class="carousel-caption d-none d-md-block">
-                <h5>Marie Sklodowska-Curie</h5>
+        <div id="bootstrap-override" class="container-fluid">
+          <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1248,w_2220,x_0,y_0/f_auto,q_auto,w_1100/v1554928240/shape/mentalfloss/537552.curie2x.jpg" class="d-block min-vh-100" alt="marie sklodowska curie" >
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="text_carousel">Marie Sklodowska-Curie</h1>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://img.ihned.cz/attachment.php/30/73278030/Mnw3S1PDszbt08h47NyUV6FeLOcgaovp/jarvis_5cac89a3498ec2457185ae9a.jpeg" class="d-block w-100" alt="slide2">
+        <div id="bootstrap-override" class="container-fluid">
+        <img src="https://img.ihned.cz/attachment.php/30/73278030/Mnw3S1PDszbt08h47NyUV6FeLOcgaovp/jarvis_5cac89a3498ec2457185ae9a.jpeg" class="d-block min-vh-100" alt="dana drabova">
         <div class="carousel-caption d-none d-md-block">
-                <h5>Dana Drabova</h5>
+                <h1 id="text_carousel">Dana Drabova</h1>
+                <h2 id="text_carousel">Join today</h2>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="http://the8percent.com/wp-content/uploads/2017/06/vonSuttner-tender.jpg" class="d-block w-100" alt="slide 1">
-        <div class="carousel-caption d-none d-md-block">
-                <h5>Bertha von Suttner</h5>
-        </div>
+      </div>
       </div>
     </div> 
   </div>
   </div>
+</div>
 
-  </div>
 <!-- Footer -->
+<div id="bootstrap-override" class ="container-fluid">
   <div class="My_footer">
     <footer>
       <div class="social_media">
@@ -92,10 +95,11 @@
         <a href="https://www.instagram.com/" class="fa fa-instagram" style="text-decoration:none"></a>
       </div>
       <div>
-        &copy; 2019 Copyright: Viktorija Buklajeva & Zuzana Kovacsova
+        &copy; 2019 Copyright: CURIOUS
       </div>
     </footer>
   </div>
+</div>
 
 </body>
 </html>
