@@ -13,6 +13,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -32,11 +33,11 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">contact</a>
-            </li>
             <li class="nav-item active">
               <a class="nav-link" href="about_us.html">about<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="events.html">events</a>
@@ -54,9 +55,41 @@
       </nav>
     </div>
 
-
-    <div class="container-fluid">
-    sdhjfgsuakdfsdfsdf
+    <div class="container">
+      <h1>Welcome to Curieous</h1>
+      <p> We are a London-based network of women working in Tech from an Eastern European background.</p>
+      <p> Our focus is:</p>
+      <ul>
+        <li>Empowering women in tech.</li>
+        <li>Connecting women.</li>
+        <li>Providing coaching and skills training.</li>
+      </ul> 
+      <p> Visit our social media profiles to learn more about our members and stay up to date with our events. Alternatively, join our mailing list by filling in the form below; or drop us a <a href="contact.html">message</a>.</p>
+      <form name="mailing_list">
+        <p style="display: flex; justify-content:center;">Your email address:<input type="text" name="email" size="5"></p>
+        <p style="display: flex; justify-content:center;"><input type="checkbox" name="sign_me_up" value="Yes">I want to hear about recent news from Curieous.</p>
+        <p style="display: flex; justify-content:center;"><input type="button" value="Sign me up!" id="btnsubmit" onclick="submitForm_short()"></p>
+      </form>
+      <div class="row">
+        <div class="col-sm">
+          <h2>Meet us</h2>
+          <p>We host a number of regular <a href="events.html"> events</a>. Everyone is welcome to come and meet us. (Drinks and snacks are always provided!)</p>
+          <h2>Join</h2>
+          <p>If you'd like to join us, please fill in this <a href="join_now.html">form</a>. </p>
+        </div>
+        <div class="col-sm">
+          <h2>Location</h2>
+          <p>We are based in central London. Find us at:</p>
+          <div class="row">
+            <div class="col-sm">
+              <p style="font-family: 'Questrial', sans-serif !important; font-size: 18px; ">10 Bressenden Pl, Westminster, London SW1E 5DN</p>
+            </div>
+            <div class="col-sm">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.9098723515604!2d-0.14314182989021898!3d51.498175248065365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876051f5354f029%3A0x453fc357e5dbb164!2sPA%20Consulting!5e0!3m2!1sen!2suk!4v1574155465066!5m2!1sen!2suk" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>    
     </div>
 
 
@@ -66,7 +99,7 @@
 
 <!-- Footer -->
   <div id="bootstrap-override" class ="container-fluid"></div>
-  <div class="My_footer">
+    <div class="My_footer">
       <footer>
         <div class="social_media">
           <a href="https://www.facebook.com/" class="fa fa-facebook" style="text-decoration:none"></a>
@@ -74,7 +107,7 @@
           <a href="https://www.instagram.com/" class="fa fa-instagram" style="text-decoration:none"></a>
         </div>
         <div>
-          &copy; 2019 Copyright: CURIEOUS
+          CURIEOUS 2019
         </div>
       </footer>
     </div>
