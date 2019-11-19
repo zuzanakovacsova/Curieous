@@ -9,7 +9,7 @@ body {
   font-size: 20px;
   cursor: auto;
   color: #495269;
-  background: #A2B6E8 !important;
+  background: #A2B6E8 !important; 
   margin: 0;
 }
 
@@ -450,12 +450,5 @@ display: block;
 display: block;
 width: 40px;
 padding: 10px 0px 9px;
-}
-.about_us
-div {
-  column-count: 3;
-}
-div {
-  column-gap: 40px;
 }
 }
