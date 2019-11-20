@@ -3,25 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>CURIEOUS: Join now</title>
-  <!-- loading stylesheets -->
+  <title>CURIEOUS: Disclaimer</title>
+  <!-- Loading stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <!-- adding fonts-->
+  <!-- Adding fonts-->
   <link href="https://fonts.googleapis.com/css?family=Amiri|Questrial&display=swap" rel="stylesheet">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <!--   BODY   -->
 <body>
   <div class="content">
-    <!-- navigation bar-->  
     <div id="bootstrap-override" class ="container-fluid">
+      <!-- Navigation bar-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">CURIEOUS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +28,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">home</a>
+            <li class="nav-ite">
+              <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about_us.html">about</a>
@@ -45,52 +44,29 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 join</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="disclaimer.html">disclaimer</a>
-                <a class="dropdown-item active" href="join_now.html">join now</a>
+                <a class="dropdown-item active" href="disclaimer.html">disclaimer</a>
+                <a class="dropdown-item" href="join_now.html">join now</a>
               </div>
             </li>
           </ul>
-        </div>
+        </div> 
       </nav>
     </div>
 
-  <!-- Join us form-->
-    <div class= "container">
-      <div>
-        <h1>Join us</h1>
-      </div>
-      <div class = "row">
-        <div class = "col-sm">
-          <img src="images/women_glass.jpg" alt="woman with magnifier" width="100%">
+    <div class="container">
+        <div>
+            <h1>Disclaimer</h1>
         </div>
-        <div class = "col-sm">
-          <h2 style="justify-content:flex-start;">Please submit this form</h2>
-          <form name="contact-form">
-            <p>Name:</p>
-            <input type="text" name="firstname" size="5"><br>
-            <p>Last name:</p>
-            <input type="text" name="lastname" size="5" >
-            <br>
-            <p>Gender:</p>
-            <input type="radio" name="gender" value="female" checked> Female
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="other"> Other<br>
-            <p>Email address:</p>
-            <input type="text" name="email" placeholder="We will get in touch with further info" size="10"><br>
-            <p>Upload CV:</p>
-            <input type = "file" name = "upload" accept = ".docx" /><br>
-            <br>
-            <input type="button" value="Submit" id="btnsubmit" onclick="submitForm()">
-          </form>
-          <p id="appended_confirm"></p>
-        </div>
-      </div>
+        <p>This website was created during a CodeFirst:Girls website development course for educational purposes only (we've learnt a lot!) and is not based on a real networking organisation.</p>
+        <p>Please visit <a href="https://www.codefirstgirls.org.uk/">CodeFirst:Girls</a> if you'd also like to learn how to create a website as fantastic as this one.</p>
     </div>
 
-<!-- end of content -->
-  </div>
+  <!-- end of content -->
+</div>
+
+
 <!-- Footer -->
-  <div id="bootstrap-override" class ="container-fluid"></div>
+  <div id="bootstrap-override" class ="container-fluid">
     <div class="My_footer">
       <footer>
         <div class="social_media">
@@ -107,4 +83,3 @@
 
 </body>
 </html>
-
